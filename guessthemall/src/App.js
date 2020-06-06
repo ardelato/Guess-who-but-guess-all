@@ -1,9 +1,19 @@
 import React from "react";
-import characters from "./characters.json";
 import ImageCard from "./components/ImageCard";
+import Jumbotron from "./components/Jumbotron";
+import Nav from "./components/Nav";
+import { Container, Row, Col } from "./components/Grid";
 
 function App() {
-  return <ImageCard src={"../../public/images/150.png"}></ImageCard>;
+  return (
+    <div>
+      <Nav />
+      <Jumbotron />
+      <Container>
+        <ImageCard src={"../../public/images/150.png"}></ImageCard>
+      </Container>
+    </div>
+  );
 }
 
 export default App;

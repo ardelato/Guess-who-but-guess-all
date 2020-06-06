@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import image from "../../images/150.png";
 import "./style.css";
 
 class ImageCard extends Component {
@@ -10,7 +11,7 @@ class ImageCard extends Component {
   render(props) {
     return (
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={props.src} />
+        <Card.Img variant="top" src={image} />
       </Card>
     );
   }
