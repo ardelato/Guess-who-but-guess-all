@@ -10,7 +10,7 @@ class ImageCard extends Component {
 
   render(props) {
     return (
-      <Card style={{ width: "18rem" }}>
+      <Card>
         <Card.Img variant="top" src={image} />
       </Card>
     );

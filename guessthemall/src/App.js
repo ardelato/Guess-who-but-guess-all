@@ -10,7 +10,48 @@ function App() {
       <Nav />
       <Jumbotron />
       <Container>
-        <ImageCard src={"../../public/images/150.png"}></ImageCard>
+        <Row>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+          <Col size="md-12">
+            <ImageCard src={"../../public/images/150.png"}></ImageCard>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
