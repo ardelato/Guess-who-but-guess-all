@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
-import image from "../../images/150.png";
 import "./style.css";
 
 class ImageCard extends Component {
@@ -8,10 +7,18 @@ class ImageCard extends Component {
     checked: false
   };
 
-  render(props) {
+  handleClick = () => {
+    if (this.state.checked) {
+      console.log("Already Checked");
+    } else {
+      this.setState({ checked: true });
+    }
+  };
+
+  render() {
     return (
-      <Card>
-        <Card.Img variant="top" src={image} />
+      <Card onClick={this.handleClick}>
+        <Card.Img variant="top" src={this.props.src} />
       </Card>
     );
   }
