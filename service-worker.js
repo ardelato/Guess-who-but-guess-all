@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Guess-who-but-guess-all/precache-manifest.88dbce52a180796269b5aebb34fcec3b.js"
+  "/Guess-who-but-guess-all/precache-manifest.722202e5a83963a8c54978bdb1f6c3db.js"
 );
 
 self.addEventListener('message', (event) => {
