@@ -22,33 +22,17 @@ class ImageLayout extends Component {
   };
 
   handleChecked = (srcID, scoreCB) => {
-    console.log("ID " + srcID);
     let index = this.state.imageCards.findIndex(obj => obj.src === srcID);
     if (this.state.imageCards[index].checked) {
-      console.log("Reset Array");
       this.resetImages();
       scoreCB(true);
     } else {
-      console.log("Update Status");
       let tempArray = this.state.imageCards;
       tempArray[index].checked = true;
       this.setState({ imageCards: tempArray });
       this.randomizeImages();
       scoreCB(false);
     }
-    // if (imageStatus) {
-    //   console.log("Reset Array");
-    //   this.resetImages();
-    // } else {
-    //   console.log("Update Status");
-    //   console.log(this.state.imageCards.findIndex(obj => obj.src === srcID));
-    //   const index = this.state.imageCards.findIndex(obj => obj.src === srcID);
-
-    //   let tempArray = this.state.imageCards;
-    //   tempArray[index].checked = true;
-    //   this.setState({ imageCards: tempArray });
-    //   this.randomizeImages();
-    // }
   };
 
   resetImages = () => {
