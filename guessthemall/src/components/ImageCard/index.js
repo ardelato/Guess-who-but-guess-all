@@ -24,8 +24,6 @@ class ImageCard extends Component {
         value={this.props.imageObj.src}
       >
         <Card.Img variant="top" src={this.props.imageObj.src} />
-        <p>{this.props.imageObj.src}</p>
-        <p>{this.props.imageObj.checked.toString()}</p>
       </Card>
     );
   }

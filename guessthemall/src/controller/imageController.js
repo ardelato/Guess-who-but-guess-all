@@ -6,18 +6,18 @@ import ImageCard from "../components/ImageCard";
 class ImageLayout extends Component {
   state = {
     imageCards: [
-      { src: "/images/dinosaur-1.png", checked: false },
-      { src: "/images/dinosaur-2.png", checked: false },
-      { src: "/images/dinosaur-3.png", checked: false },
-      { src: "/images/dinosaur-4.png", checked: false },
-      { src: "/images/dinosaur-5.png", checked: false },
-      { src: "/images/dinosaur-6.png", checked: false },
-      { src: "/images/dinosaur-7.png", checked: false },
-      { src: "/images/dinosaur-8.png", checked: false },
-      { src: "/images/dinosaur-9.png", checked: false },
-      { src: "/images/dinosaur-10.png", checked: false },
-      { src: "/images/dinosaur-11.png", checked: false },
-      { src: "/images/dinosaur-12.png", checked: false }
+      { src: "./images/dinosaur-1.png", checked: false },
+      { src: "./images/dinosaur-2.png", checked: false },
+      { src: "./images/dinosaur-3.png", checked: false },
+      { src: "./images/dinosaur-4.png", checked: false },
+      { src: "./images/dinosaur-5.png", checked: false },
+      { src: "./images/dinosaur-6.png", checked: false },
+      { src: "./images/dinosaur-7.png", checked: false },
+      { src: "./images/dinosaur-8.png", checked: false },
+      { src: "./images/dinosaur-9.png", checked: false },
+      { src: "./images/dinosaur-10.png", checked: false },
+      { src: "./images/dinosaur-11.png", checked: false },
+      { src: "./images/dinosaur-12.png", checked: false }
     ]
   };
 
