@@ -3,14 +3,32 @@ import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import ImageLayout from "./controller/imageController";
 
-function App() {
-  return (
-    <div>
-      <Nav />
-      <Jumbotron />
-      <ImageLayout />
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    score: 0,
+    topScore: 0
+  };
+
+  scoreChange = status => {
+    if (status) {
+      this.setState({ score: 0 });
+    } else {
+      this.setState({
+        score: this.state.score + 1,
+        topScore: this.state.topScore + 1
+      });
+    }
+  };
+
+  render() {
+    return (
+      <div>
+        <Nav score={this.state.score} topScore={this.state.topScore} />
+        <Jumbotron />
+        <ImageLayout scoreChange={this.scoreChange} />
+      </div>
+    );
+  }
 }
 
 export default App;

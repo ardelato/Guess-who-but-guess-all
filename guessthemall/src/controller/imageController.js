@@ -20,50 +20,86 @@ function randomizeImages() {
   imageArray.sort(() => Math.random() - 0.5);
 }
 
-function ImageLayout() {
+function ImageLayout(props) {
   randomizeImages();
   return (
     <Container>
       <Row>
         <Col size="md-12">
-          <ImageCard src={imageArray[0]}></ImageCard>
+          <ImageCard
+            src={imageArray[0]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[1]}></ImageCard>
+          <ImageCard
+            src={imageArray[1]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[2]}></ImageCard>
+          <ImageCard
+            src={imageArray[2]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[3]}></ImageCard>
-        </Col>
-      </Row>
-      <Row>
-        <Col size="md-12">
-          <ImageCard src={imageArray[4]}></ImageCard>
-        </Col>
-        <Col size="md-12">
-          <ImageCard src={imageArray[5]}></ImageCard>
-        </Col>
-        <Col size="md-12">
-          <ImageCard src={imageArray[6]}></ImageCard>
-        </Col>
-        <Col size="md-12">
-          <ImageCard src={imageArray[7]}></ImageCard>
+          <ImageCard
+            src={imageArray[3]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
       </Row>
       <Row>
         <Col size="md-12">
-          <ImageCard src={imageArray[8]}></ImageCard>
+          <ImageCard
+            src={imageArray[4]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[9]}></ImageCard>
+          <ImageCard
+            src={imageArray[5]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[10]}></ImageCard>
+          <ImageCard
+            src={imageArray[6]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
         <Col size="md-12">
-          <ImageCard src={imageArray[11]}></ImageCard>
+          <ImageCard
+            src={imageArray[7]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="md-12">
+          <ImageCard
+            src={imageArray[8]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
+        </Col>
+        <Col size="md-12">
+          <ImageCard
+            src={imageArray[9]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
+        </Col>
+        <Col size="md-12">
+          <ImageCard
+            src={imageArray[10]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
+        </Col>
+        <Col size="md-12">
+          <ImageCard
+            src={imageArray[11]}
+            scoreChange={props.scoreChange}
+          ></ImageCard>
         </Col>
       </Row>
     </Container>
