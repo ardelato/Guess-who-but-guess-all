@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Guess-who-but-guess-all/static/css/main.3cc5a97a.chunk.css",
+    "main.js": "/Guess-who-but-guess-all/static/js/main.b7d04161.chunk.js",
+    "main.js.map": "/Guess-who-but-guess-all/static/js/main.b7d04161.chunk.js.map",
+    "runtime-main.js": "/Guess-who-but-guess-all/static/js/runtime-main.eccf4ede.js",
+    "runtime-main.js.map": "/Guess-who-but-guess-all/static/js/runtime-main.eccf4ede.js.map",
+    "static/js/2.dc2082e7.chunk.js": "/Guess-who-but-guess-all/static/js/2.dc2082e7.chunk.js",
+    "static/js/2.dc2082e7.chunk.js.map": "/Guess-who-but-guess-all/static/js/2.dc2082e7.chunk.js.map",
+    "index.html": "/Guess-who-but-guess-all/index.html",
+    "precache-manifest.88dbce52a180796269b5aebb34fcec3b.js": "/Guess-who-but-guess-all/precache-manifest.88dbce52a180796269b5aebb34fcec3b.js",
+    "service-worker.js": "/Guess-who-but-guess-all/service-worker.js",
+    "static/css/main.3cc5a97a.chunk.css.map": "/Guess-who-but-guess-all/static/css/main.3cc5a97a.chunk.css.map",
+    "static/js/2.dc2082e7.chunk.js.LICENSE.txt": "/Guess-who-but-guess-all/static/js/2.dc2082e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eccf4ede.js",
+    "static/js/2.dc2082e7.chunk.js",
+    "static/css/main.3cc5a97a.chunk.css",
+    "static/js/main.b7d04161.chunk.js"
+  ]
+}
