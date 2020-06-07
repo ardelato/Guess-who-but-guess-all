@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83d464b4d90dfcdcbcd03ad044fa8e2e",
+    "revision": "4a347b74132db76906d352dc43c3aff1",
     "url": "/Guess-who-but-guess-all/index.html"
   },
   {
-    "revision": "131377891345ba6b0425",
+    "revision": "2f44a04be81412c91dff",
     "url": "/Guess-who-but-guess-all/static/css/main.3cc5a97a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Guess-who-but-guess-all/static/js/2.dc2082e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "131377891345ba6b0425",
-    "url": "/Guess-who-but-guess-all/static/js/main.57d2c50c.chunk.js"
+    "revision": "2f44a04be81412c91dff",
+    "url": "/Guess-who-but-guess-all/static/js/main.2060ea14.chunk.js"
   },
   {
     "revision": "c6a127ad4aa885b31641",
