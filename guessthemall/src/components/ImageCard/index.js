@@ -22,7 +22,7 @@ class ImageCard extends Component {
   render() {
     return (
       <Card onClick={() => this.handleClick(this.props.scoreChange)}>
-        <Card.Img variant="top" src={this.props.src} />
+        <Card.Img variant="top" src={this.props.imageObj.src} />
       </Card>
     );
   }

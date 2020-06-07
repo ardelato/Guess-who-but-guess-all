@@ -15,7 +15,10 @@ class App extends React.Component {
     } else {
       this.setState({
         score: this.state.score + 1,
-        topScore: this.state.topScore + 1
+        topScore:
+          this.state.score + 1 > this.state.topScore
+            ? this.state.score + 1
+            : this.state.topScore
       });
     }
   };
